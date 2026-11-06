@@ -1,9 +1,10 @@
 [project]
-name = "weather-predictation-app-numpy"
+name = "weather-prediction-app-numpy"
 version = "0.1.0"
 requires-python = ">=3.14"
 dependencies = [
     "fastapi[standard]>=0.143.0",
+    "numpy>=2.5.4",
     "openai>=3.26.1",
 ]
 
